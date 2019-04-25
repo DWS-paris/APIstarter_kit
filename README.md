@@ -2,6 +2,8 @@
 
 Repo de départ pour la mise en place d'une API NodeJS.
 
+Définition de l'API : <https://documenter.getpostman.com/view/1383513/S1EWQFhf>
+
 Installer les dépendances :
 
 ```

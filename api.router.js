@@ -43,7 +43,7 @@ Class definition
                         // Save item in DB
                         model.create(req.body)
                         .then( response => res.status(200).send({ message: 'Object created', data: response._id }))
-                        .catch( response => res.status(200).send({ message: 'Request error', data: null }))
+                        .catch( response => res.status(500).send({ message: 'Request error', data: null }))
                     };
                 });
             };
